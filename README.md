@@ -1,2 +1,2 @@
 # CrayonRobo
-CVPR 2025
+CVPR 2025 paper
