@@ -75,4 +75,4 @@ This command will first generate training dataset and then generate the testing 
   
   bash test.sh
 
-- Remember to change the argument --adapter_dir in test_model.sh to the directory you placed the ckpts.
+- Remember to change the argument --adapter_dir in test_model.sh to the directory you placed the ckpts. The default dir is at ./CrayonRobo/crayonrobo/exp
