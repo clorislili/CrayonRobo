@@ -9,7 +9,7 @@ import numpy as np
 import torch.nn as nn
 import random
 parser = ArgumentParser()
-parser.add_argument('--llama_dir', type=str, help='llama directory')
+parser.add_argument('--llama_dir', default='./ckpts/llama_model_weights', type=str,help='llama directory')
 parser.add_argument('--adapter_dir', type=str, help='adapter directory')
 # parser.add_argument('--device', type=str, default='cuda:0', help='cpu or cuda:x for using cuda on GPU number x')
 parser.add_argument('--data_dir', type=str)
@@ -20,6 +20,7 @@ parser.add_argument('--imagehint', default='False',type=str)
 parser.add_argument('--action', type=str, help='llama directory')
 
 conf = parser.parse_args()
+conf.llama_dir = './ckpts/llama_model_weights'
 device = 'cuda' if torch.cuda.is_available() else "cpu"
 llama_dir = conf.llama_dir
 model, preprocess = llama.load(conf.adapter_dir, llama_dir, device)
