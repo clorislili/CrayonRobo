@@ -9,7 +9,7 @@ This repo benefits from [LLama_Adapter](https://github.com/OpenGVLab/LLaMA-Adapt
 
 2) conda activate crayonrobo
 
-3) pip install -r crayonrobo
+3) pip install -r requirement.txt
 
 Note that, the installed torch should satisfy your own cuda version
 
