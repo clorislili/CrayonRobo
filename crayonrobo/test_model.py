@@ -29,7 +29,7 @@ model.eval()
 
 record_names = os.listdir(conf.data_dir)
 for record_name in record_names:
-    record_name = '1492_Faucet_1_pulling_49'
+    
     try:
         cat = record_name.split('_')[1]
     except:
