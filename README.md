@@ -15,7 +15,7 @@ Note that, the installed torch should satisfy your own cuda version
 
             
 ## Data Collection
-- Download our training and test data: [train data]() and [test data](). The files should be zipped to ./CrayonRobo/data_collection/data.
+- Download our training and test data: [train data](https://disk.pku.edu.cn/link/AA2D8CF14617EC45F799598FD373A02A33) and [test data](https://disk.pku.edu.cn/link/AA0017714558C54B38B89EA6FA5B16A96F). The files should be zipped to ./CrayonRobo/data_collection/data.
   ```bash
   ./data/train_dataset
     ├── 148_Faucet_0_pulling_0
@@ -46,7 +46,7 @@ This command will first generate training dataset and then generate the testing 
 ## Model Training
 - Preparation:
 
-  Download checkpoints for [LLaMa-Adapter](), [LLaMa](https://disk.pku.edu.cn/link/AA682A19DB7FDA4028B112449D24BBC308). The downloaded checkpoints should be placed under ./Crayonrobo/crayonrobo/ckpts. 
+  Download checkpoints for [LLaMa-Adapter](https://disk.pku.edu.cn/link/AAA00A497254C54FD6AB5F43540CEE996F). The downloaded checkpoints should be placed under ./Crayonrobo/crayonrobo/ckpts. 
     ```plaintext
     ./ckpts/llama_model_weights
     ├── 7B
