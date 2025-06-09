@@ -26,7 +26,7 @@ Note that, the installed torch should satisfy your own cuda version
     │   ...
     └── ...
 
-- Or collect data by your own: Download [partnet mobility assets]() and zip to /CrayonRobo/data_collection/assets.
+- Or collect data by your own: Download [partnet mobility assets](https://disk.pku.edu.cn/link/AADBF11B73C9164A2F94AD38EAD2CE4CEC) and zip to /CrayonRobo/data_collection/assets.
   ```bash
   ./assets
     ├── 148
