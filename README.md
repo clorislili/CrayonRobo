@@ -66,7 +66,7 @@ This command will first generate training dataset and then generate the testing 
 
 ## Model Testing
 
--  Download the released [checkpoint]() or use your own trained checkpoint. The link we provide is baiduyun downloading link. If you can not download, feel free to reach out via email to xl3062@columbia.edu, then we will share the ckpts with you directly. Note that, due to the randomness in data collection, the provided testing dataset is different from the ones in paper, so you may result in slightly different but comparable results compared with the results in paper. 
+-  Download the released [checkpoint](https://disk.pku.edu.cn/link/AA7934375E8BE24C61B57F6B57A089740B) or use your own trained checkpoint. The link we provide is baiduyun downloading link. If you can not download, feel free to reach out via email to xl3062@columbia.edu, then we will share the ckpts with you directly. Note that, due to the randomness in data collection, the provided testing dataset is different from the ones in paper, so you may result in slightly different but comparable results compared with the results in paper. 
 
 - The testing requires the server to has a least 40g memory. This command will first use the model to infer on all the test samples, and then interact with object in the simulator (SAPIEN).
   
